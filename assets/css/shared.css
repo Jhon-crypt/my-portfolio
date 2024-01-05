@@ -186,10 +186,7 @@ footer {
 }
 
 .mobile-nav {
-	background: linear-gradient(
-		180deg,
-		var(--bg-color-transparent) 0%,
-		var(--bg-color) 12%);
+	
 	width: 100vw;
 	height: 100vh;
 
@@ -257,7 +254,7 @@ footer {
 	display: block;
 	width: 20px;
 	height: 2px;
-	background-color: var(--bg-color);
+	background-color: white;
 	transition:  all 0.25s ease-out;
 }
 
@@ -303,8 +300,7 @@ footer {
 }
 
 .project-card .project-img {
-	width: 100%;
-	aspect-ratio: 17/11;
+	height:100%;
 	border-bottom: 1px solid var(--body-color);
 	object-fit: cover;
 }
@@ -354,8 +350,8 @@ footer {
 
 .contact-form {
 	position: relative;
-	background-color: var(--bg-color);
-	border: 1px solid var(--body-color);
+	background-color: #1e1e1e;
+	border: 1px solid black;
 	padding: 1.55rem 1.25rem;
 	margin-top: 2rem;
 	margin-bottom: 4rem;
@@ -406,7 +402,7 @@ footer {
 
 .input-group input::placeholder,
 .input-group textarea::placeholder {
-	color: var(--primary-color);
+	color: white;
 }
 
 .input-group textarea {
